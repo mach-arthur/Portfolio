@@ -36,6 +36,7 @@ p {
 }
 hr {
   height: 1px;
+  min-width: 225px;
 }
 
 h1 {
@@ -213,7 +214,7 @@ input:checked + .slider:before {
   transform: translateX(22px);
 }
 #apresentacao {
-  margin-right: 2rem;
+  margin: 2rem;
 }
 #contatos {
   margin: 0rem 0rem 1rem 0rem;
@@ -256,5 +257,12 @@ input:checked + .slider:before {
 @media only screen and (max-width: 940px) {
   .flex_fluid {
     flex-direction: column;
+    text-align: center;
+  }
+  .more {
+    min-width: 225px;
+  }
+  .topico {
+    padding: 2rem 2rem 2rem 2rem;
   }
 }
