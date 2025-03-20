@@ -214,7 +214,7 @@ input:checked + .slider:before {
   transform: translateX(22px);
 }
 #apresentacao {
-  margin: 2rem;
+  margin: 2rem 2rem 2rem 0;
 }
 #contatos {
   margin: 0rem 0rem 1rem 0rem;
@@ -254,15 +254,24 @@ input:checked + .slider:before {
   }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1080px) {
   .flex_fluid {
     flex-direction: column;
     text-align: center;
+  }
+  .flex {
+    display: block;
+  }
+  .between {
+    justify-content: center;
   }
   .more {
     min-width: 225px;
   }
   .topico {
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
+  }
+  #apresentacao {
+    margin: 2rem;
   }
 }
