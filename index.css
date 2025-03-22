@@ -111,10 +111,10 @@ img {
   background-color: #4624dd;
   color: #eae9fc;
   font-size: 1rem;
-  min-width: 150px;
+  min-width: 200px;
   padding: 1rem;
   border: 1rem;
-  margin: 2rem 0rem 4rem 0rem;
+  margin: 2rem 0.1rem 4rem 0.1rem;
   cursor: pointer;
 }
 .description {
